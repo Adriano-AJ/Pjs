@@ -1,10 +1,10 @@
 # Projeto de Sistemas
 Desenvolvedores: 
 
-*Adriano Júnior de Souza Almeida
-*Andre Ferreira Araujo 
-*Ihuá Fillype dos Santos Saraiva 
-*Gabriela de Almeida Santos
+**Adriano Júnior de Souza Almeida
+**Andre Ferreira Araujo 
+**Ihuá Fillype dos Santos Saraiva 
+**Gabriela de Almeida Santos
 
 ## Notes
 
