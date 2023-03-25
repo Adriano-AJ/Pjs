@@ -20,7 +20,6 @@ export const styles = StyleSheet.create({
         marginBottom:30
       },
         textMain:{
-        fontFamily: "poppins",
         fontWeight:"700",
         fontSize:30,
         marginBottom:30
@@ -62,5 +61,15 @@ export const styles = StyleSheet.create({
     textFinal:{
         alignSelf:"center",
         marginBottom:-200
+    },
+    buttonBack:{
+        width:30,
+        height:30,
+        marginTop:-80,
+        marginBottom:80
+    },
+    iconButtonBack:{
+        width:20,
+        height:20
     }
     })

@@ -12,7 +12,6 @@ export const styles = StyleSheet.create({
     flex:1,
     },
     textMain:{
-      fontFamily: "poppins",
       fontWeight:"700",
       fontSize:30,
       marginBottom:30
