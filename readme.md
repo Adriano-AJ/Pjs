@@ -9,6 +9,12 @@ Desenvolvedores:
 *Nicolas dos Santos Lima
 *Vitor Mesquita Alves
 
+## Como baixar o projeto:
+
+1. Copie o link do repositório
+2. Abra o cmd e entre em alguma pasta 
+3. Digite git clone + o link do repositório 
+
 ## Notes
 
 ### TextInput
