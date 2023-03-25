@@ -1,13 +1,13 @@
 # Projeto de Sistemas
 Desenvolvedores: 
 
-*Adriano Júnior de Souza Almeida
-*Allan Matheus Jesus da Silva
-*Andre Ferreira Araujo 
-*Ihuá Fillype dos Santos Saraiva 
-*Gabriela de Almeida Santos
-*Nicolas dos Santos Lima
-*Vitor Mesquita Alves
+* Adriano Júnior de Souza Almeida
+* Allan Matheus Jesus da Silva
+* Andre Ferreira Araujo 
+* Ihuá Fillype dos Santos Saraiva 
+* Gabriela de Almeida Santos
+* Nicolas dos Santos Lima
+* Vitor Mesquita Alves
 
 ## Como baixar o projeto:
 
