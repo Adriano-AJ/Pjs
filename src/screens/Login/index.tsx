@@ -10,7 +10,7 @@ export function Login(){
     <View style={styles.containerBox}>
         <Text style={styles.textMain}>Entrar</Text>
         <Text style={styles.textLabel}>Email</Text>
-        <TextInput style={styles.inputEntrada} secureTextEntry={true}/>
+        <TextInput style={styles.inputEntrada} secureTextEntry={false}/>
         <Text style={styles.textLabel}>Senha</Text>
         <TextInput style={styles.inputEntrada} secureTextEntry={true}/>
         <Text style={styles.textAlert}>Esqueceu a senha?</Text>

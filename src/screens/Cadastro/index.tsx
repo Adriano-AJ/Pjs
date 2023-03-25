@@ -2,6 +2,7 @@ import {Text, View, Image, TextInput, TouchableOpacity, Alert, StatusBar } from 
 import { UserState } from 'realm';
 import {styles} from './styles';
 import  {useState} from 'react'
+import { BackButton } from '../../Components/ButtonBack/styles';
 
 export function Cadastro(){
 
@@ -10,14 +11,9 @@ export function Cadastro(){
     <View style={styles.container}>
         
         <View style={styles.containerBox}>
-            <TouchableOpacity style={styles.buttonBack} onPress={() => Alert.alert('SEXO na laje')}>
-                <Image 
-                source={require("@")} 
-                style={styles.iconButtonBack}
-                />
-            </TouchableOpacity>
+            <BackButton></BackButton>
             <Image 
-            source={require("../../../assets/cerebro.png")} 
+            source={require("./../../assets/cerebro.png")} 
             style={styles.logo}
             />
 
@@ -31,7 +27,7 @@ export function Cadastro(){
             <View style={styles.formInput}>
                 <TextInput placeholder="Senha" style={styles.inputEntrada} secureTextEntry={true}/>
                 <TouchableOpacity onPress={() => Alert.alert('Em processo de criação')}>
-                    <Image source={require("../../../assets/hide.png")} 
+                    <Image source={require("./../../assets/hide.png")} 
                     style={styles.imgButton}
                     />
                 </TouchableOpacity>
@@ -40,7 +36,7 @@ export function Cadastro(){
             <View style={styles.formInput}>
                 <TextInput placeholder="Confimar senha" style={styles.inputEntrada} secureTextEntry={true}/>
                 <TouchableOpacity onPress={() => Alert.alert('Em processo de criação')}>
-                    <Image source={require("../../../assets/hide.png")} 
+                    <Image source={require("./../../assets/hide.png")} 
                     style={styles.imgButton}
                     />
                 </TouchableOpacity>

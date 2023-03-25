@@ -6,7 +6,7 @@ export function Home(){
   
   <View style={styles.container}>
     <View style={styles.logoContainer}>
-      <Image source={require("../../../assets/cerebro.png")} 
+      <Image source={require("./../../assets/cerebro.png")} 
       style={styles.logo}
       />
     </View>
