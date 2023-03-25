@@ -12,7 +12,7 @@ export function Cadastro(){
         <View style={styles.containerBox}>
             <TouchableOpacity style={styles.buttonBack} onPress={() => Alert.alert('SEXO na laje')}>
                 <Image 
-                source={require("../../../assets/previous.png")} 
+                source={require("@")} 
                 style={styles.iconButtonBack}
                 />
             </TouchableOpacity>
