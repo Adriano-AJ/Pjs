@@ -1,8 +1,6 @@
 import {Text, View, Image, TextInput, TouchableOpacity, Alert, StatusBar } from 'react-native';
-import { UserState } from 'realm';
 import {styles} from './styles';
-import  {useState} from 'react'
-import { BackButton } from '../../Components/ButtonBack/styles';
+import { ButtonBack } from '../../Components/ButtonBack';
 
 export function Cadastro(){
 
@@ -11,7 +9,9 @@ export function Cadastro(){
     <View style={styles.container}>
         
         <View style={styles.containerBox}>
-            <BackButton></BackButton>
+
+           <ButtonBack></ButtonBack>
+
             <Image 
             source={require("./../../assets/cerebro.png")} 
             style={styles.logo}

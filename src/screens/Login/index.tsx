@@ -1,13 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import {Text, View, Image, TextInput, TouchableOpacity, Alert } from 'react-native';
 import {styles} from './styles';
+import { ButtonBack } from '../../Components/ButtonBack';
 
 export function Login(){
   return (
 
 <View style={styles.container}>
-
     <View style={styles.containerBox}>
+    <ButtonBack
+    ></ButtonBack>
         <Text style={styles.textMain}>Entrar</Text>
         <Text style={styles.textLabel}>Email</Text>
         <TextInput style={styles.inputEntrada} secureTextEntry={false}/>

@@ -1,9 +1,13 @@
-import styled from 'styled-components/native'
+import {StyleSheet} from 'react-native';
 
-export const BackButton = styled.TouchableOpacity`
 
-`;
-export const BackIcon = styled.Image`
-    width: 30px;
-    height: 30px;
-`;
+export const styles = StyleSheet.create({
+    Button:{
+        width:30,
+        height:30
+    },
+    iconButton:{
+        width:20,
+        height:20
+    }
+})
