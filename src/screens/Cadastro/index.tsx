@@ -8,7 +8,8 @@ export function Cadastro(){
 
     <View style={styles.containerBox}>
 
-        <Image source={require("../../../assets/cerebro.png")} 
+        <Image 
+        source={require("../../../assets/cerebro.png")} 
         style={styles.logo}
         />
 
