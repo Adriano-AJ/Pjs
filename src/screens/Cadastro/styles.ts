@@ -11,24 +11,30 @@ export const styles = StyleSheet.create({
         justifyContent:"center",
         flex:1,
     },
+    header:{
+        width:"100%",
+        padding:10
+    },
     logo:{
         width: 225,
         height: 225,
         borderRadius:100,
         alignSelf:"center",
-        marginTop:-80,
-        marginBottom:30
+        marginBottom:20
       },
         textMain:{
         fontWeight:"700",
         fontSize:30,
-        marginBottom:30
+        marginBottom:30,
+        alignSelf:"flex-start"
+        
     },
     formInput:{
-        flexDirection:"row",
+        paddingLeft:20,
+        paddingRight:20,
+        width:"100%",
         alignItems:"center",
         justifyContent:"center",
-        marginBottom:20
     },
     inputEntrada:{
         flexGrow:1,

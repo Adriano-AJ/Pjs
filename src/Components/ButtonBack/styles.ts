@@ -1,6 +1,5 @@
 import {StyleSheet} from 'react-native';
 
-
 export const styles = StyleSheet.create({
     Button:{
         width:30,
@@ -10,4 +9,4 @@ export const styles = StyleSheet.create({
         width:20,
         height:20
     }
-})
+}) 

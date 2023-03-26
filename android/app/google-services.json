@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "820147437360",
+    "project_id": "recovery-moments",
+    "storage_bucket": "recovery-moments.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820147437360:android:3fdf0dbcc38a0e6237d2f5",
+        "android_client_info": {
+          "package_name": "com.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820147437360-n49479fg5kqh7gh0p08gef6q9pc8vf00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmumm4sLKyZJUVjrgJ1pkAyEM5m2JUgOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820147437360-n49479fg5kqh7gh0p08gef6q9pc8vf00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

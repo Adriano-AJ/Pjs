@@ -6,7 +6,7 @@ export function Home(){
 
   const navigation = useNavigation();
 
-  function handleLogin(){
+  function handleGoToLogin(){
     navigation.navigate('login')
   }
   function handleCadastro(){
@@ -24,7 +24,7 @@ export function Home(){
   <Text style={styles.text}> RECOVERY MOMENTS </Text>
   
   <TouchableOpacity
-  onPress={handleLogin}
+  onPress={handleGoToLogin}
   style={styles.botao}>
   <Text style={styles.texto}>Login</Text>
   </TouchableOpacity>
