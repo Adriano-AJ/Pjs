@@ -3,9 +3,11 @@ import {styles} from './styles';
 import { ButtonBack } from '../../Components/ButtonBack';
 import {useState} from 'react'
 import {useForm, Controller} from 'react-hook-form';
-import { Input } from './../../Components/Input';
+import { Input } from '../../Components/Input';
 import * as yup from 'yup';
 import {yupResolver} from '@hookform/resolvers/yup';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import {useNavigation} from '@react-navigation/native'
 
 type FormDataProps = {
     name: string,
@@ -22,14 +24,23 @@ const signUpSchema = yup.object({
 })
 
 
+
 export function Cadastro(){
 
     const {control, handleSubmit, formState:{errors}} = useForm<FormDataProps>({
         resolver: yupResolver(signUpSchema)
     })
 
-    function handleCadastro({name, email, password, confpassw}: FormDataProps){
-        console.log(name, email, password, confpassw)
+    const navigation = useNavigation();
+    const [ready, setReady] = useState<boolean>()
+
+    const handleCadastro = async ({name, email, password, confpassw}: FormDataProps) => {
+        await AsyncStorage.setItem('@asyncStorage:nameUser', name);
+        await AsyncStorage.setItem('@asyncStorage:emailUser', email);
+        await AsyncStorage.setItem('@asyncStorage:passwordUser', password);
+        setReady(true);
+        navigation.navigate('login')
+        
     }
     return (
     
